@@ -1,0 +1,36 @@
+.header {
+  height: 17rem;
+
+  .header-logo {
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    .logo {
+      height: 100%;
+    }
+    span {
+      font-family: "Segoe UI";
+      font-size: 3rem;
+      font-weight: bold;
+      color: #e6e6e6e6;
+      text-shadow: 0 0 6px #333333;
+      margin-left: 1rem;
+    }
+  }
+  .header-nav {
+    height: 5rem;
+    background-color: #60ab6a;
+  }
+  .ant-menu {
+    background-color: #60ab6a !important;
+    border: none;
+    height: 100%;
+    margin-left: 10%;
+    font-size: 1.5rem;
+
+    span {
+      color: #ffffff !important;
+    }
+  }
+}

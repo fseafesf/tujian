@@ -1,0 +1,62 @@
+.course {
+  display: flex;
+  flex-direction: column;
+  .course-card {
+    min-height: 30rem;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 3rem;
+    transition: all 0.6s ease-in-out;
+    &:hover {
+      box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+      transform: scale(1.03);
+    }
+
+    .card-image {
+      display: flex;
+      flex: 1;
+      img {
+        width: 50%;
+        height: 100%;
+        padding: 1rem;
+      }
+    }
+    .card-description {
+      padding: 4rem;
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      color: #333;
+      width: 40%;
+      text-indent: 2rem;
+      p {
+        &::first-letter {
+          font-size: 2rem;
+        }
+      }
+      span {
+        white-space: pre-wrap;
+      }
+    }
+
+    &:nth-child(odd) {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+
+    &:nth-child(even) {
+      display: flex;
+    }
+
+    &:nth-child(3) {
+      display: flex;
+      .card-image {
+        display: flex;
+        flex: 1;
+        img {
+          width: 100%;
+          padding: 1rem;
+        }
+      }
+    }
+  }
+}
