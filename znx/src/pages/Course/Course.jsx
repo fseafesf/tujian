@@ -6,8 +6,8 @@ export default function Course() {
     <div className="course">
       <div className="course-card">
         <div className="card-image">
-          <img src="course/1.png" alt="" />
-          <img src="course/2.png" alt="" />
+          <img src="images/course/1.png" alt="" />
+          <img src="images/course/2.png" alt="" />
         </div>
         <div className="card-description">
           <h2>自然探索类课程</h2>
@@ -26,8 +26,8 @@ export default function Course() {
       </div>
       <div className="course-card">
         <div className="card-image">
-          <img src="course/3.png" alt="" />
-          <img src="course/4.png" alt="" />
+          <img src="images/course/3.png" alt="" />
+          <img src="images/course/4.png" alt="" />
         </div>
         <div className="card-description">
           <h2>科学实践类课程</h2>
@@ -48,7 +48,7 @@ export default function Course() {
       </div>
       <div className="course-card">
         <div className="card-image">
-          <img src="course/5.png" alt="" />
+          <img src="images/course/5.png" alt="" />
         </div>
         <div className="card-description">
           <h2>野外科考类课程</h2>
@@ -83,8 +83,8 @@ export default function Course() {
       </div>
       <div className="course-card">
         <div className="card-image">
-          <img src="course/6.jpg" alt="" />
-          <img src="course/7.png" alt="" />
+          <img src="images/course/6.jpg" alt="" />
+          <img src="images/course/7.png" alt="" />
         </div>
         <div className="card-description">
           <h2>特色民族类研学课程</h2>
